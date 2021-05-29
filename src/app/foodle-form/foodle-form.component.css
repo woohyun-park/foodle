@@ -52,6 +52,12 @@ input[type="text"]{
   opacity: 0;
 }
 
+.form__img{
+  margin-top: 3rem;
+  margin-bottom: -3.5rem;
+  margin-left: -25rem;
+}
+
 .form__title--foodle{
   color: white;
   font-size: 8rem;
@@ -141,6 +147,10 @@ input[type="text"]{
   border-color: black;
   border-width: .2rem;
   border-radius: .5rem;
+}
+
+.form__taste--select>select:hover{
+  cursor:pointer;
 }
 
 .form__taste--select>select>option{
